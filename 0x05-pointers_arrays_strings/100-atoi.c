@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+
 int _atoi(char *s)
 {
 	int c = 0;
