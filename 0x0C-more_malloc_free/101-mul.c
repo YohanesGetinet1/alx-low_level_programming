@@ -19,7 +19,13 @@ int _isNum(char *num)
 	return (1);
 }
 
-
+/**
+* *_memset - copies a character to the firstn characters of the string pointed
+*@s: original string
+*@b: value to remplace
+*@n: number of bytes
+*Return: s (string modify)
+*/
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
@@ -29,7 +35,11 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 
-
+/**
+* _strlen - returns the lenght of a string
+*@s: poiter of character
+*Return: the length of a string
+*/
 int _strlen(char *s)
 {
 	int len;
@@ -40,6 +50,12 @@ int _strlen(char *s)
 	return (len);
 }
 
+/**
+* main - multiple 2 positive numbers
+*@argc: argument counter
+*@argv: number to multiply
+*Return: 0 (success)
+*/
 int main(int argc, char *argv[])
 {
 	int length, c, prod, i, j, l1, l2;
