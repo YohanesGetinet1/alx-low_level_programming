@@ -1,24 +1,35 @@
-#include <stdio.h>
+#include <stdarg.h>
 #include "variadic_functions.h"
 
 /**
- * main - check the code for Holberton School students.
+ *sum_them_all - returns the sum of all of its parameters
+ *@n: number of variable arguments passed
  *
- * Return: Always 0.
+ *Return: the sum if successful, 0 if n = 0
  */
 
 
-int main(void)
+int sum_them_all(const unsigned int n, ...)
+
 {
-    int sum;
 
-    sum = sum_them_all(2, 98, 1024);
+va_list sumlist;
 
-    printf("%d\n", sum);
+unsigned int i = 0;
 
-    sum = sum_them_all(4, 98, 1024, 402, -1024);
+int sum = 0;
 
-    printf("%d\n", sum);
+	va_start(sumlist, n);
 
-    return (0);
+		if (n == 0)
+
+		return (0);
+
+		while (i < n)
+	{
+		sum += va_arg(sumlist, int);
+		i++;
+	}
+		va_end(sumlist);
+		return (sum);
 }
