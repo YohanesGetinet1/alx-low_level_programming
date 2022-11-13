@@ -1,0 +1,61 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 0 (Always)
+ *
+ */
+
+int _putchar(char c);
+
+/**
+ * main - print name of program
+ * @argc: argument counter
+ * @argv: pointer to array of arguments
+ * Return: 0 on success
+ */
+
+ /**
+  * create_array - create array of chars and initialize with a specific char
+  * @size: size of array
+  * @c: fill array values with this char
+  * Return: pointer to array
+  */
+
+ char *create_array(unsigned int size, char c);
+
+ /**
+  * _strdup - returns a pointer to a newly allocated space in memory,
+  * which contains a copy of the string given as a parameter
+  * @str: string to duplicate
+  * Return: pointer to duplicated string in allocated memory
+  */
+
+ char *_strdup(char *str);
+
+ /**
+  * str_concat - concatenates two strings
+  * @s1: string 1
+  * @s2: string 2
+  * Return: pointer to concatenated string
+  */
+
+ char *str_concat(char *s1, char *s2);
+
+ /**
+  * alloc_grid - returns a pointer to a 2 dimensional array of integers
+  * @width: columns
+  * @height: rows
+  * Return: pointer to 2d array
+  */
+
+ int **alloc_grid(int width, int hei
+ void free_grid(int **grid, int height);
+ int _strlen(char *s);
+
+ char *argstostr(int ac, char **av);
+
+#endif

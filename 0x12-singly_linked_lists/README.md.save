@@ -1,0 +1,59 @@
+# printf
+
+### Smile 
+------------------
+
+![Printf()]()
+
+<p>
+
+```diff
+- In this repository we try to do our version of the printf function,
+
+- the basic and main functions.
+
++ We will apply C programming language for taking care of the task.
+
+! This is group project titled by the project name ('0x11 C - Printf')
+
+# 
+```
+
+</p>
+
+
+## TASK 
+-----------------------
+0.Write a function that produces output according to a format.
+
+.c
+
+.s
+
+.%
+
+-------------------------
+1.Handle the following conversion specifiers
+
+ .d
+ 
+ .i
+ 
+-------------------------
+2.Create manual (man) page for the function.
+
+## Author
+
+<h3>
+
+
+1.[Yohanes Getinet Nuriye](https://github.com/YohanesGetinet1)
+
+
+
+
+</h3>
+
+
+Requested by [ALX](https://www.alxafrica.com/software-engineering-2022 ) Software Engineering Programme
+
